@@ -5,4 +5,4 @@ Date of Creation: 06/09/2022
 
 
 Click on the image to watch the Video :
-[![Watch the video](images/calculatorApp.png)](https://youtu.be/kh6TUM31g9g)
+[![Watch the video](calculatorApp.png)](https://youtu.be/kh6TUM31g9g)
