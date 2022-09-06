@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #000;
+}
+
+.content {
+    margin: auto;
+    padding-top: 5px;
+}
+
+.salutation {
+    width: 350px;
+    margin: 50px auto;
+    background-color: aliceblue;
+    padding: px 0 0 0;
+    display: flex;
+    border-radius: 7px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.icon {
+    padding: 15px;
+    font-size: 45px;
+    color: #000;
+}
+
+.full {
+    width: 100%;
+}
+
+.calc-table {
+    width: 350px;
+    margin: auto;
+    border-radius: 7px;
+    background-color: #fff;
+    padding: 10px;
+
+}
+
+#output {
+    padding: 15px;
+    width: 73%;
+}
+
+#output:hover {
+    cursor: text;
+}
+
+.clear-btn {
+    width: 23%;
+    padding: 15px 0;
+}
+
+.btn {
+    padding: 20px;
+    width: 23%;
+}
+
+.btn,
+.clear-btn,
+#output {
+    margin: 1px;
+    background-color: #000;
+    display: flex-box;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.clear-btn:hover {
+    background-color: rgb(59, 59, 96)
+}
+
+#footer, a{
+    color: #fff;
+    font-family: sans-serif;
+    padding-top: 50px;
+    text-align: center;
+}

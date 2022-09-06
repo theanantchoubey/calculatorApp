@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="calculator.png" type="image/x-icon">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ac03ba53df.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="salutation">
+        <i class="icon fa fa-calculator"></i>
+        <div class="content">
+            <p>Welcome to Calculator Application</p>
+            <h1 class="heading">Calculator App</h1>
+        </div>
+    </div>
+    <table class="calc-table">
+        <tr>
+            <td><input class="clear-btn" type="text" id="output">
+                <input  type="button" value="C" onclick="clearOutput()" class="clear-btn"></td>
+            </tr>
+            <tr>
+                <td>
+                <input class="btn" type="button" value="7" onclick="play('7')">
+                <input class="btn" type="button" value="8" onclick="play('8')">
+                <input class="btn" type="button" value="9" onclick="play('9')">
+                <input class="btn" type="button" value="*" onclick="play('*')">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="btn" type="button" value="4" onclick="play('4')">
+                <input class="btn" type="button" value="5" onclick="play('5')">
+                <input class="btn" type="button" value="6" onclick="play('6')">
+                <input class="btn" type="button" value="-" onclick="play('-')">
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <input class="btn" type="button" value="1" onclick="play('1')">
+                <input class="btn" type="button" value="2" onclick="play('2')">
+                <input class="btn" type="button" value="3" onclick="play('3')">
+                <input class="btn" type="button" value="+" onclick="play('+')">
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <input class="btn" type="button" value="del" onclick="removeMe()">
+                <input class="btn" type="button" value="0" onclick="play('0')">
+                <input class="btn" type="button" value="." onclick="play('.')">
+                <input class="btn" type="button" value="=" onclick="solve()">
+            </td>
+        </tr>
+        
+    </table>
+    <footer id="footer">
+        <p>Coded by <a href="https://www.linkedin.com/in/theanantchoubey/">Anant Choubey</a></p>
+    </footer>
+
+</body>
+<script src="calculator.js"></script>
+
+</html>
